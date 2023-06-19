@@ -43,7 +43,7 @@ const ExcelUploader = () => {
   const handleFileUpload = async () => {
     if (jsonData) {
       try {
-        const response = await axios.post('https://localhost:7155/api/ExcelData', jsonData,
+        const response = await axios.post('https://localhost:7264/api/ExcelData', jsonData,
         {
             headers: {
               'Content-Type': 'application/json'
