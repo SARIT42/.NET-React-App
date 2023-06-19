@@ -13,16 +13,20 @@
     font-size: 28px;
     margin-bottom: 20px;
   }
-  
-  input[type="file"] {
+  .input-button{
     display: flex;
     margin-bottom: 10px;
     align-items: center;
     flex-direction: column;
     padding: 20px;
+    width: 90px;
+    background: #78f778;
     border-radius: 15px;
-
-
+    cursor: pointer;
+  }
+  input[type="file"] {
+   
+    visibility: hidden;
   }
   
   .custom-file-upload {

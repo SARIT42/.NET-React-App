@@ -60,7 +60,8 @@ const ExcelUploader = () => {
   return (
     <div className='excel-uploader'>
       <h2>Excel File Uploader</h2>
-      <input type="file" onChange={handleFileChange} accept=".xlsx,.xls,.csv" />
+      <label className='input-button' htmlFor='inputFile'> Choose File</label>
+      <input  id='inputFile' type="file" onChange={handleFileChange} accept=".xlsx,.xls,.csv" />
       <button onClick={handleFileUpload}>Upload</button>
 
       {/* {jsonData && (
