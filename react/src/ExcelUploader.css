@@ -1,0 +1,86 @@
+.excel-uploader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="file"] {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 15px;
+
+
+  }
+  
+  .custom-file-upload {
+    display: inline-block;
+    padding: 10px 25px;
+    cursor: pointer;
+    background-color: #343cd0;
+    color: #0e0d0d;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-file-upload:hover {
+    background-color: #ffffff;
+  }
+  
+  button {
+    padding: 8px 20px;
+    margin-top: 10px;
+    background-color: #2d75ea;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+  }
+  
+  button:hover {
+    background-color: #100ba4;
+  }
+
+  .excel-data {
+    margin-top:20px;
+  }
+
+  table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+
+  }
+
+  table th,
+  table td{
+    padding: 8px;
+    border: 2px solid #ccc;
+  }
+
+  table th{
+    background-color: #e4e4e4;
+    text-align: left;
+  }
+
+  table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  table tr:hover {
+    background-color: #ddeaf0;
+  }
