@@ -1,2 +1,2 @@
-# Eeact web app using dotnet web api 
+# React web app using dotnet web api 
 
